@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment Two</title>
     <style>
+        * , * ::before , * ::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        
+
+        }
         body {
             display: flex;
             flex-direction: column ;
             align-items: center;
-            margin-top: 10%;
+            min-height: 100vh;
+            justify-content: center; 
+            /* used for justifying and setting items on page at the centre */
             background-image: url(./light-blue-bg.jpg);
         }
 
