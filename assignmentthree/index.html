@@ -93,7 +93,7 @@
         .checkout-container {
             display: flex;
             flex-direction: column;
-            padding: 20px;
+            padding: 5%;
             background-color: white;
             margin: 20px 0 20px 14px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -133,7 +133,7 @@
             width: 80%;
         }
 
-        input[type="email"], input[type="password"], input[type="text"], input[type="number"] {
+        input[type="email"], input[type="password"], input[type="text"] {
             padding: 8px;
             margin-bottom: 15px;
             border: 1px solid black;
@@ -207,16 +207,14 @@
         }
 
         .button-wrapper {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
+           margin-left: 41.5%;
             
         }
 
         .totals p {
             display: flex;
             justify-content: space-between;
-            margin: 10px 0;
+            margin-top: 10px;
             font-size: 16px;
             font-weight: bold;
         }
@@ -224,6 +222,10 @@
         .totals p span {
             color:black;
         }
+
+        /* .second-btn-wrapper {
+            margin-top: 7rem;
+        } */
         
 
         
@@ -272,14 +274,19 @@
                     <button type="button" class="login-btn">Login</button>
                 
                 </div>
+             <hr style="margin-top: 7rem;">   
+             <div class="button-wrapper">
+                <div class="second-btn-wrapper">
+                    
+                    <button type="button" class="cancel-order">Cancel Order</button>
+                     <button type="button" class="shipping-details">Shipping Details</button>
+                </div>
+                
+             </div>
              </form>
             </div>
 
-            <!-- <hr style="width:40vw ;"> -->
-             <div class="button-wrapper">
-                <button type="button" class="cancel-order">Cancel Order</button>
-            <button type="button" class="shipping-details">Shipping Details</button>
-             </div>
+            
             
         </div>
 
